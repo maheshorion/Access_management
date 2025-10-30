@@ -1,0 +1,9 @@
+[
+  { "label": "Dashboard", "path": "/dashboard" },
+  { "label": "Applications & Features", "path": "/applications-features" },
+  { "label": "Groups", "path": "/groups" },
+  { "label": "Roles", "path": "/roles" },
+  { "label": "Users", "path": "/users" },
+  { "label": "Templates", "path": "/templates" },
+  { "label": "Audit Log", "path": "/audit-log" }
+]

@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppComponent } from './app.component';
 
-// NOTE: your pages live in src/pages/
+
 import { DashboardComponent } from '../pages/dashboard.component';
 import { ApplicationsFeaturesComponent } from '../pages/applications-features.component';
 import { GroupsComponent } from '../pages/groups.component';
@@ -37,6 +39,8 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+        HttpClientModule,
+
     RouterModule.forRoot(routes)
   ],
   bootstrap: [AppComponent]
